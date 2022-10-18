@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2rem;
+}
+
+.container {
+    display: flex;
+    background-color: burlywood;
+    height: 400px;
+    padding: 30px;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 20px;
+    background-color: green;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+    height: 40px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper2 {
+    display: flex;
+}
+
+.box2 {
+    width: 20px;
+    background-color: green;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+    height: 40px;
+}
